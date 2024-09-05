@@ -1,0 +1,316 @@
+.alert {
+  padding: 5px !important;
+}
+.navigationBar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navigationBar .nav {
+  margin: 0 10px;
+}
+
+.navigationBar .nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navigationBar .nav a.active {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.navigationBar .nav a:hover {
+  color: #0056b3;
+}
+.message-container {
+  max-height: 400px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.message-container p {
+  font-size: 10px;
+  margin: 0 !important;
+  color: #039191;
+  font-weight: 600;
+}
+
+.activeUser {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.modal-title h4 {
+  text-transform: uppercase;
+}
+
+/* chat css */
+.chat-box {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #1e90ff #f1f1f1;
+  scroll-behavior: smooth;
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 14px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background: linear-gradient(45deg, #e0e0e0, #f9f9f9);
+  border-radius: 10px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #1e90ff, #00bfff);
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border: 3px solid #f9f9f9;
+}
+
+.chat-box::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #1e90ff, #0073e6);
+}
+
+.chat-box::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+}
+
+.chat-box-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+}
+
+.message-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  max-width: 70%;
+}
+
+.own-message {
+  background-color: #d1e7dd;
+  align-self: flex-end;
+  text-align: right;
+  float: right;
+  width: 100%;
+}
+
+.other-message {
+  background-color: #e2e3e5;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.message-header {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timestamp {
+  font-size: 10px;
+  font-weight: normal;
+  color: #666;
+}
+
+.message-body {
+  font-size: 14px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.user-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #0e9ead;
+}
+
+.message-input {
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* chat css */
+
+/* Login.css */
+.login-page {
+  background: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.card h2 {
+  color: #343a40;
+}
+
+.card .form-label {
+  font-weight: 600;
+}
+
+.card .form-control {
+  border-radius: 5px;
+}
+
+.card .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.card .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.card .btn-primary:hover,
+.card .btn-success:hover {
+  opacity: 0.9;
+}
+
+/* Login.css */
+
+/* Register.css */
+.register-page {
+  background: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.card h2 {
+  color: #343a40;
+}
+
+.card .form-label {
+  font-weight: 600;
+}
+
+.card .form-control {
+  border-radius: 5px;
+}
+
+.card .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.card .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.card .btn-primary:hover,
+.card .btn-success:hover {
+  opacity: 0.9;
+}
+
+/* Register.css */
+
+/* Welcome.css */
+.welcome-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-title {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mt-4 {
+  margin-top: 2rem !important;
+}
+
+.mx-2 {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.my-2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Welcome.css */
